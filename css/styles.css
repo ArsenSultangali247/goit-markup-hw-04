@@ -181,8 +181,14 @@ img {
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
-    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../images/hero/hero-bg.jpg");
+    max-width: 1600px;
+    min-height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)),url("../images/hero/hero-bg.jpg");
 }
 
 .hero-title {
@@ -200,12 +206,25 @@ img {
 }
 
 .modal-button {
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
-    background-color: var(--accent-color);
-    cursor: pointer;
+    display: flex;
+        border: transparent;
+        border-radius: 4px;
+        box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+        cursor: pointer;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 32px;
+        padding-right: 32px;
+        min-height: 50px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: var(--accent-color);
+        font-family: inherit;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.88;
+        letter-spacing: 0.06em;
+        color: var(--primary-title-color-theme-light);
 }
 
 .modal-button-text {
