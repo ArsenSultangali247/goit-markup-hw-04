@@ -374,15 +374,12 @@ img {
     text-align: center;
 }
 
-.team-socials-container{
-    padding-left: 32px;
-    justify-content: center;
-}
-
 .team-socials{
     display: inline-flex;
     list-style: none;
     margin-top: 16px;
+    padding-left: 32px;
+    justify-content: center;
 }
 
 .team-socials-item{
